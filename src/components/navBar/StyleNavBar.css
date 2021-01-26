@@ -1,0 +1,70 @@
+.main-section-navbar{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    border-bottom: solid 1px rgba(83, 78, 78, 0.336);
+    /* border: 2px solid red; */
+}
+
+.container-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 18vw;
+    /* border: 2px solid blue; */
+}
+
+.logo{
+    font-size: 2vw;
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Goldman', cursive;
+}
+
+
+.wrapper-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 15vw;
+    /* border: 2px solid green; */
+    margin-left: auto;
+}
+
+
+.button-login{
+    width: 4vw;
+    height: 3vh;
+    border: none;
+    margin-right: 0.1vw;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    outline: none;
+    font-size: 0.8vw;
+    font-family: 'Goldman', cursive;
+    background-color: rgba(101, 101, 231, 0.89);
+    cursor: pointer;
+}
+
+.button-logout{
+    width: 4vw;
+    height: 3vh;
+    border: none;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    outline: none;
+    font-size: 0.8vw;
+    font-family: 'Goldman', cursive;
+    background-color: rgba(101, 101, 231, 0.89);
+    cursor: pointer;
+}
+
+.button-login:hover{
+    background-color: rgba(0, 0, 255, 0.836);
+}
+
+.button-logout:hover{
+    background-color: rgba(0, 0, 255, 0.836);
+}
